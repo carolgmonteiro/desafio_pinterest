@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" width="612" height="612">
+	<defs>
+		<image width="141" height="142" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACOAQMAAAA2BBlIAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAjo6O4cyUpwAAAAJ0Uk5TAP9bkSK1AAABQklEQVR4nNXWQY6DMAwF0ERdZMkRcpQcjRyNo/QIWbJA9bQFXPvzkaIOixmWT635acF2CKdXkgUkikjzlJ8kTm4vkdlXel2uWnmTVEOryB1LuWLDRo9DKVtsl0+xqKQHSEqabFDS+llJ648fmvCGestoqPnjmCMlQwtm0BQmw/5jF0sVY+3BrKzBoqN2pBmTbpQcLZh0y0rIhV/jF0+V0+hpwvOsJzpSBGqUbkAzpQS09NIA9KCUgaSXClL9nkak6VJCef5F/5nahfQnDtRLI9K1j0lB6n18M9IvXqu+t/brptDXc/r6V18vZE20eDrpvtnTSScn/Z4MCjJOyNAho4kMMDbmXPx6NjLJYCXjlwxpMsrJwGdrgUlRA6bQFYMsImRdIUsNW33IgkTWKLJssZWMLG4RUuk3a8CPuR0wsIXSXj9XNI0ZmEeNJQAAAABJRU5ErkJggg=="/>
+		<image width="142" height="142" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOAQMAAADdM6JLAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAjo6O4cyUpwAAAAJ0Uk5TAP9bkSK1AAABQUlEQVR4nO3WOw7DIAwG4KAOjDkCR+FoydF6FI7AmKEKfRCDbX4kmipbGT8pxqYFe5q6y6Rd05LSJmVOr3UX9Jb04HL7UGq+k1/6TFGHEsHsQWnVoXgwTxR1KBbsVqhkZitR/LkSxXeVQj0YWnRAVWhLw2hvcqAsLKdV50BZOE5BFl0LB7Rw2nSmR65G0N4hkXxO30padfI5fUBOUsDkJUVdT64IkJRPkS0ZRTskVfW77jGymtZBmjXdB8lpCufJa4pX0zJA25++JK/p8t/RafrhX3j6Kpy+fKev+9hrMvYyDb5yXlLE5CSF4TcaPO6gBQACvQM0HdSaRPrdniYqCr2WCRoraL+gSYNWzrOgGYNlEQ4CwwMYMeqWdeBqNoRDTdkyFAIDkmmil7Pm0xwYycDglr+UUyAYAqekZsAcbeqvJ2UKhDTtaP7cAAAAAElFTkSuQmCC"/>
+		<image width="141" height="142" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACOAQMAAAA2BBlIAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAjo6O4cyUpwAAAAJ0Uk5TAP9bkSK1AAABP0lEQVR4nNXWwQnDMAwF0IYcfMwIHsWjOaNllI7gYw6hblNXtfTzAyaYQn18UFmC1Pq32+kZckaKOW9WXH6dxdAu+QGV9qNpKnRXFAqtWMoUGz+UZyyliwWhWiwKfQcY8vccqtf6UyUZ01dKeGG9MlaSK6vISKoH6WLUVLpwmhZsSwb3mhK2JY1FTRu2Relx6LT0OlqaOTlLCzZf2ifkLSWcp0xEKFraOFl5D3kkmHqfu41GpJmRa6CF0YR0v04eKXWlgLT+E8WO1LOv35NH6vuZ9Pui6R+mjdr+tZcfhbY3p/H9CpZO3kJvKTW/vuTZJkTee7IoyDphSyceKWhaz9YcWYZkZZLFStYvWdJslavGZOGrxiQWkPBAIgYJIiSusFBDog8JSCRGsbBFIhkJbqUzmwIn/F25E6IiC5TqPAE8cn+4mLg4AgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<use id="Layer" href="#img1" x="0" y="235" />
+			<use id="Layer" href="#img2" x="235" y="235" />
+			<use id="Layer" href="#img3" x="471" y="235" />
+		</g>
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>

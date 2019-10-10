@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="460" height="460">
+	<defs>
+		<image width="112" height="57" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAAA5AQMAAADUeT2sAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAjo6O4cyUpwAAAAJ0Uk5TAP9bkSK1AAAAmUlEQVR4nLXTuw1DIQwFUEcUKTMCozBaGI1RPMIrKRCJZRG/a0shSRG6I4Gv+RH5cX/AmL9w/JHle/YPzBsekbcNOfK6YYtMyBp5QVIkgaa/s8AhLCe7ML/lIYQtsRCabsLkCW1VT/+UpudQWnBXWjArLbgpLbgqLck/2rFYsLCV5sWElV6HOe0DFFy6Gmnn/3BztTYDKa+VT5fYWDfFLKwFAAAAAElFTkSuQmCC"/>
+		<image width="359" height="377" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWcAAAF5AQMAAAB5qnklAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAjo6O4cyUpwAAAAJ0Uk5TAP9bkSK1AAADGUlEQVR4nO3YTY6jMBQE4I6yyDJH8FF8NHM0jpIjsMwCjQeaYQD7/VRlhMSozTL6FOFXZYP4+pKuZ36Jv8tXzCOhc844vk+6g/Vj0i9Yh0kPsI6TfsM6TRofyoTzLxTfZg2PkNP3b91Rugf14wP9AvXzdI0WJfwgjW6Hpptuuumfrr8x+qBfHjvoY+oPxv78sWroz+NfDazzlrfL18+d9m8l7rT/bpUzcSuPg+6J2/afmemgvRvPx8vG90J3xG17Ew+FtpeZCm0u85bLy9LlIu1llou0l1ku0l5mrLS1zApbm7MeiTWUeiTWUOqRWEOpR2INpR6JdUwkQesjFLA+FGkk+lBk3StaGqA+wiBqbYRR1NoIk6i1EYpYa6HUwPmStTxAbeCa7kX9oLQcjhZPULQcT1S0HE9StBwPpxUsh6lFKYephSOHyWktSjlMLUo5TE4HVUvRR1VL0XM6qVqKXsVi9JTWayIVhdN6TaSi6DWRisJpvSZSUTgdDF3XitPR0HWtOJ0MXZfwTG1gobKUtgpbV5bTVr3rgp+prc1Qb4cztbV16s1zpg6mLrfadXQ0dbmNr6OTqctNfx1tYlKXx89/qu1jkNS5aU/bh/25umu66aabbrrppptuuummm2666aabbvoi2v4QX36K9/TroO1P66UOjh7+QUdHHz87J0ePlD5+2HTwUXsf/I6f5Xy9j96ryVF7wR+L4ut99F5Njjq4eqD0PvpI6eTqkdL76F28137w+6L4we+jR/QWvR/8XvvB76NH9BZ9oHQE9JvSW/SJ0gDeRU9ppCZbUZDgt6Jgeo0eqcmmkeC3ogRIDx/pCOm1KAnS40cawmv0WPBr9JzGgl+LggW/Rs9prCZrUQKohw90BPWbCH6NntMgXoqCBr9EjwbP6o4Ifome02hNlqIEWA9E8Ev0nE6wHongl+gpjddkjh4Pfo6e03jwc/SMfhE1mXUg9HCifhOlOlePRGGbvrqOF9FsY8Npmt3F3HnCnVXcOcicsT112nfMkyTTT6kI65F6cr/ptwJ8hD39Fgbf+PuDt3Xi+g00b1RSjhB01AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<use id="Layer" href="#img1" x="174" y="403" />
+				<use id="Layer" href="#img2" x="50" y="0" />
+			</g>
+		</g>
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>
