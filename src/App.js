@@ -5,14 +5,14 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <header>
         <Navbar />
       </header>
-      <main>
+      <div>
         <Body />
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
 
