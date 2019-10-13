@@ -1,0 +1,30 @@
+.btn-nav {
+  /* color: #8e8e8e;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-basis: 8%;
+  background: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer; */
+  color: #8e8e8e;
+  margin-left: 10px;
+  display: flex;
+  flex-basis: 8%;
+  background: transparent;
+  border-radius: 20px;
+  padding-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-nav :hover {
+  background: #f2f2f2;
+  border-radius: 50%;
+}

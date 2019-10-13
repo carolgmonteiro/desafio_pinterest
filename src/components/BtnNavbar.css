@@ -1,0 +1,46 @@
+.button-box {
+  margin-top: 20px;
+  display: flex;
+  align-content: space-between;
+}
+
+.btn-nav-name {
+  height: 50px;
+  width: 100%;
+  color: #8e8e8e;
+  /* margin-bottom: 10px; */
+  margin-left: 5px;
+  display: flex;
+  flex-basis: 8%;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* padding-top: 8px; */
+  /* padding-bottom: 8px; */
+  border: none;
+  transition: 0.3s;
+}
+.btn-nav-name:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+}
+
+.user-icon {
+  margin-top: 13px;
+  margin-right: 6px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #8e8e8e;
+  color: white;
+  box-sizing: border-box;
+}
+
+.username {
+  margin-top: 13px;
+}
