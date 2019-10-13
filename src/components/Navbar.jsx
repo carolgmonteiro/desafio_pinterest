@@ -13,10 +13,7 @@ class Navbar extends React.Component {
         <nav id="navbar" className="header-content">
           <div className="btn-box">
             <button id="btn-pinterest" className="logo-pinterest">
-              <img
-                src={require("../img/logo-pinterest.png")}
-                alt="logo-pinterest"
-              />
+              <img src={require("../img/logo.svg")} alt="logo-pinterest" />
             </button>
             <div className="search-box-content">
               <SearchBox />

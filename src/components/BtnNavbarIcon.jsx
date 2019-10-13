@@ -5,7 +5,7 @@ class BtnNavbarIcon extends React.Component {
   render() {
     return (
       <>
-        <div className="btn-chat">
+        <>
           <button className="btn-nav">
             <img
               className="icon"
@@ -13,8 +13,8 @@ class BtnNavbarIcon extends React.Component {
               alt="chat-button"
             />
           </button>
-        </div>
-        <div className="btn-notifications">
+        </>
+        <>
           <button className="btn-nav">
             <img
               className="icon"
@@ -22,8 +22,8 @@ class BtnNavbarIcon extends React.Component {
               alt="notifications-button"
             />
           </button>
-        </div>
-        <div className="btn-settings">
+        </>
+        <>
           <button className="btn-nav">
             <img
               className="icon"
@@ -31,7 +31,7 @@ class BtnNavbarIcon extends React.Component {
               alt="settings-button"
             />
           </button>
-        </div>
+        </>
       </>
     );
   }

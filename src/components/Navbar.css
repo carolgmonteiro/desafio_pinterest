@@ -4,17 +4,18 @@
   height: 65px;
   background: white;
   flex-wrap: wrap;
+  z-index: 9999;
 }
 
 .header-content {
   z-index: 9999;
   top: 0;
   position: fixed;
-  z-index: 9999;
   box-sizing: border-box;
 }
 .btn-box {
   display: flex;
+  background: white;
 
   /* justify-content: space-around; */
 }
@@ -23,9 +24,12 @@
   height: 28px;
   width: 28px;
 }
+.logo-pinterest img:hover {
+  background: #efefef;
+  border-radius: 50%;
+}
 
 .logo-pinterest {
-  border-radius: 50%;
   margin-top: 3px;
   margin-left: 15px;
   border: none;
@@ -34,16 +38,6 @@
 
 .search-box-content {
   flex-basis: 65%;
-  display: flex;
-}
-
-.icon {
-  justify-content: center;
-  /* padding: 2%; */
-  padding: 10px;
-  height: 48px;
-  /* margin-right: 15px; */
-  width: 48px;
   display: flex;
 }
 
