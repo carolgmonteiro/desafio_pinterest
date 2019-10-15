@@ -1,5 +1,8 @@
 import React from "react";
 import "./Navbar.css";
+import SearchBox from "./SearchBox";
+import BtnNavbar from "./BtnNavbar";
+import BtnNavbarIcon from "./BtnNavbarIcon";
 // import { Row } from "reactstrap";
 // import { Col } from "reactstrap";
 
@@ -8,55 +11,20 @@ class Navbar extends React.Component {
     return (
       <React.Fragment>
         <nav id="navbar" className="header-content">
-          <button id="btn-pinterest" className="logo-pinterest">
-            <img
-              src={require("../img/logo-pinterest.png")}
-              alt="logo-pinterest"
-            />
-          </button>
-
-          <div className="search-box">
-            <button className="btn-search">
-              <img src={require("../img/search.svg")} alt="search-button" />
+          <div className="btn-box">
+            <button id="btn-pinterest" className="logo-pinterest">
+              <img src={require("../img/logo.svg")} alt="logo-pinterest" />
             </button>
-            <input type="text" placeholder="Search" />
+            <div className="search-box-content">
+              <SearchBox />
+            </div>
+            <div className="button-content">
+              <BtnNavbar />
+              <div className="border"></div>
+              <BtnNavbarIcon />
+            </div>
           </div>
-          <div className="button-content">
-            <button className="btn-nav">Home</button>
-            <button className="btn-nav">Following</button>
-            <button className="btn-nav">
-              <p className="user-icon">C</p>Carolina
-            </button>
-            <div className="border"></div>
-            <div className="btn-chat">
-              <button className="btn-nav">
-                <img
-                  className="icon"
-                  src={require("../img/chat.svg")}
-                  alt="chat-button"
-                />
-              </button>
-            </div>
-            <div className="btn-notifications">
-              <button className="btn-nav">
-                <img
-                  className="icon"
-                  src={require("../img/bell.svg")}
-                  alt="notifications-button"
-                />
-              </button>
-            </div>
-            <div className="btn-settings">
-              <button className="btn-nav">
-                <img
-                  className="icon"
-                  src={require("../img/dots.svg")}
-                  alt="settings-button"
-                />
-              </button>
-            </div>
-            <hr />
-          </div>
+          <hr />
         </nav>
       </React.Fragment>
     );
