@@ -28,6 +28,7 @@ class Image extends React.Component {
       imgStyle = { display: "none" };
       otherImgStyle = { display: "none" };
     }
+
     return (
       <React.Fragment>
         <div
@@ -56,8 +57,13 @@ class Image extends React.Component {
               <img src={require("../img/dots.svg")} alt="dots" />
             </button>
           </div>
-          <div style={otherImgStyle} className="btn-share">
-            <img src={require("../img/share.png")} alt="share" />
+          <div className="link-content" style={otherImgStyle}>
+            <div className="btn-share">
+              <img src={require("../img/share.png")} alt="share" />
+            </div>
+            <div className="link-image">
+              <button>{this.props.url.substr(8, 20) + "..."}</button>
+            </div>
           </div>
         </div>
       </React.Fragment>
