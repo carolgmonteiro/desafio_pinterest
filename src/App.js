@@ -51,7 +51,7 @@ class App extends React.Component {
 
   showModal() {
     return this.state.images.map((image, i) => {
-      console.log(image.webformatURL);
+      console.log(image);
       return <Modal id={image.id} key={i} url={image.webformatURL} />;
     });
   }
@@ -63,6 +63,7 @@ class App extends React.Component {
       700: 2,
       500: 1
     };
+
     return (
       <React.Fragment>
         <header>
