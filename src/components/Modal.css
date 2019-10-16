@@ -1,0 +1,192 @@
+.modal-content {
+  margin-top: 90px;
+  position: relative;
+  border: inherit;
+}
+
+.modal-header {
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+}
+.modal-content .save {
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 105px;
+  border: none;
+  color: white;
+  background: #c92228;
+  display: flex;
+}
+.modal-content .save:hover {
+  filter: brightness(0.7);
+}
+
+.modal-content .pin {
+  width: 18%;
+  margin-right: 5px;
+}
+.modal-content .sent {
+  padding-top: 1px;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 105px;
+  border: none;
+  color: #333;
+  background: #efefef;
+  display: flex;
+}
+.modal-content .sent:hover {
+  background: rgb(226, 226, 226);
+}
+.modal-content .shar {
+  margin-top: -3px;
+  width: 32%;
+  margin-right: 5px;
+}
+.modal-header .add {
+  flex-basis: 5%;
+  margin-top: 0;
+  margin-right: 40vw;
+  padding: 7px;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+}
+.modal-header .add:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+.modal-header .add img {
+  margin-left: 4px;
+  margin-bottom: 1px;
+  width: 70%;
+}
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  left: -17vw;
+}
+.arrow img {
+  width: 5%;
+}
+.closed {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -33vw;
+}
+.closed img {
+  width: 9%;
+}
+
+.modal.fade.show {
+  background: #efefef;
+}
+.modal-body {
+  padding-top: 0px;
+}
+.modal-body img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+.modal-footer {
+  border-top: inherit;
+}
+
+.btn-save-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-save-collection1 button {
+  height: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: bold;
+  width: 72px;
+  border: none;
+  color: white;
+  background: #e60023;
+  position: relative;
+  justify-content: center;
+  outline: none;
+}
+
+.btn-save-collection button:hover {
+  background: #cf001f;
+}
+
+.btn-save-collection1 select {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 40px;
+  width: 168px;
+  background: #efefef;
+  border: 0;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  scrollbar-arrow-color: #333333;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+.btn-save-collection select :hover {
+  background: #e2e2e2;
+}
+.btn-dots {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 15px;
+}
+
+.btn-dots button {
+  border: none;
+  background: transparent;
+  height: 24px;
+  outline: none;
+  border-radius: 50%;
+}
+.btn-dots img:hover {
+  background: #e4e3e3;
+  border-radius: 50%;
+}
+
+.btn-dots img {
+  /* position: absolute; */
+  /* width: 5%; */
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.btn-share {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background: #474747;
+  position: absolute;
+  justify-content: center;
+  right: 15px;
+  bottom: 48px;
+  cursor: pointer;
+}
+.btn-share img {
+  width: 100%;
+}
+
+.btn-share:hover {
+  background: #333333;
+  /* filter: brightness(0.7); */
+}

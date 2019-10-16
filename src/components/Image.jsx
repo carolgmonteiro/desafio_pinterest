@@ -35,18 +35,21 @@ class Image extends React.Component {
           onMouseLeave={() => this.handleHover()}
           className="image-container"
         >
-          <img className="linked-img" src={this.props.url} alt="link" />
+          <img
+            className="linked-img"
+            src={this.props.url}
+            alt="link"
+            data-target={"#modal" + this.props.dataTarget}
+            data-toggle="modal"
+          />
           <div style={imgStyle} className="btn-save-collection">
-            <select name="collections" onChange={this.handleInput}>
+            <select name="collections">
               <option>illustration</option>
               <option>watercolor</option>
               <option>photos</option>
               <option>inspiration</option>
             </select>
-            <button>
-              {/* <img className="save" src={require("../img/pin.png")} alt="pin" /> */}
-              Save
-            </button>
+            <button>Save</button>
           </div>
           <div className="btn-dots">
             <button>
