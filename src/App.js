@@ -4,6 +4,7 @@ import "./App.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Masonry from "react-masonry-css";
 import Image from "./components/Image";
+import Modal from "./components/Modal";
 
 class App extends React.Component {
   constructor(props) {
@@ -11,10 +12,11 @@ class App extends React.Component {
     this.state = {
       images: [],
       query: "",
-      count: 1
+      currentPage: 1
     };
     this.fetchData = this.fetchData.bind(this);
     this.showImg = this.showImg.bind(this);
+    this.showModal = this.showModal.bind(this);
   }
 
   componentDidMount() {
@@ -29,10 +31,10 @@ class App extends React.Component {
   }
 
   fetchData() {
-    const { count } = this.state;
-    this.setState({ count: this.state.count + 1 });
+    const { currentPage } = this.state;
+    this.setState({ currentPage: this.state.currentPage + 1 });
     fetch(
-      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&page=${count}&per_page=20`
+      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&page=${currentPage}&per_page=20`
     )
       .then(response => response.json())
       .then(data =>
@@ -47,10 +49,17 @@ class App extends React.Component {
     });
   }
 
+  showModal() {
+    return this.state.images.map((image, i) => {
+      console.log(image.webformatURL);
+      return <Modal id={image.id} key={i} url={image.webformatURL} />;
+    });
+  }
+
   render() {
     const breakpointColumnsObj = {
-      default: 4,
-      1100: 3,
+      default: 5,
+      1100: 4,
       700: 2,
       500: 1
     };
@@ -59,6 +68,7 @@ class App extends React.Component {
         <header>
           <Navbar />
         </header>
+        {this.showModal()}
         <div className="images-container">
           <InfiniteScroll
             dataLength={this.state.images.length}
