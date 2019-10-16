@@ -122,10 +122,14 @@
   font-weight: bold;
   background: #474747;
   justify-content: center;
-  right: 60px;
+  right: 100px;
   cursor: pointer;
   border: none;
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
   bottom: 48px;
+}
+
+.link-image button:hover {
+  background: #333333;
 }

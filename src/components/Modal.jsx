@@ -25,20 +25,6 @@ class Modal extends React.Component {
   }
 
   render() {
-    var imgStyle;
-    var otherImgStyle;
-    if (this.state.hover) {
-      imgStyle = {
-        display: "flex",
-        position: "absolute",
-        top: "10px",
-        right: "10px"
-      };
-      otherImgStyle = { display: "block" };
-    } else {
-      imgStyle = { display: "none" };
-      otherImgStyle = { display: "none" };
-    }
     return (
       <React.Fragment>
         <div
@@ -51,50 +37,16 @@ class Modal extends React.Component {
         >
           <div className="modal-dialog modal-lg" role="document">
             <div className="modal-content">
-              <div className="modal-header">
-                <div
-                  className="arrow close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <img src={require("../img/back.svg")} alt="btn-back" />
-                </div>
-
-                {/* <div className="btn-dots-modal">
-                  <img src={require("../img/dots-black.PNG")} alt="dots" />
-                </div>
-
-                <div className="btn-share-modal">
-                  <img src={require("../img/share-black.PNG")} alt="share" />
-                </div>
-
-                <div className="btn-save-collection-modal">
-                  <select name="collections">
-                    <option>illustration</option>
-                    <option>watercolor</option>
-                    <option>photos</option>
-                    <option>inspiration</option>
-                  </select>
-                  <button>Save</button>
-                </div> */}
+              <div className="arrow" data-dismiss="modal" aria-label="Close">
+                <img src={require("../img/back.svg")} alt="btn-back" />
               </div>
               <div className="modal-body">
-                <img
-                  className="img-fluid"
-                  src={this.props.url}
-                  alt=""
-                  onMouseEnter={() => this.handleHover()}
-                  onMouseLeave={() => this.handleHover()}
-                />
-
+                <img className="img-fluid" src={this.props.url} alt="linked" />
                 <div className="modal-infos">
-                  <div className="btn-dots-modal">
+                  <div className="btn-icons-modal">
                     <img src={require("../img/share-black.PNG")} alt="share" />
-                  </div>
-                  <div className="btn-dots-modal">
                     <img src={require("../img/dots-black.PNG")} alt="dots" />
                   </div>
-
                   <div className="btn-save-collection-modal">
                     <select name="collections">
                       <option>illustration</option>
@@ -104,9 +56,15 @@ class Modal extends React.Component {
                     </select>
                     <button>Save</button>
                   </div>
-                </div>
-                <div className="link-image-modal">
-                  <button>{this.props.url.substr(8, 20) + "..."}</button>
+                  <div className="link-image-modal">
+                    <button>
+                      <img
+                        src={require("../img/arrow-diagonal.PNG")}
+                        alt="share"
+                      />
+                      {this.props.url.substr(8, 20) + "..."}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

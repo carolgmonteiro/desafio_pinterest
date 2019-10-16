@@ -11,8 +11,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       images: [],
-      query: "",
-      currentPage: 1
+      currentPage: 1,
+      query: ""
     };
     this.fetchData = this.fetchData.bind(this);
     this.showImg = this.showImg.bind(this);
@@ -51,9 +51,21 @@ class App extends React.Component {
 
   showModal() {
     return this.state.images.map((image, i) => {
-      console.log(image);
+      // console.log(image);
       return <Modal id={image.id} key={i} url={image.webformatURL} />;
     });
+  }
+
+  searchImg(query) {
+    fetch(
+      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&q=${query}image_type=all&orientation=vertical&per_page=20`
+    )
+      .then(response => response.json())
+      .then(data => {
+        // console.log(query);
+        return this.setState({ images: data.hits });
+      })
+      .catch(error => console.log("parsing failed", error));
   }
 
   render() {
