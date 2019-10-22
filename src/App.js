@@ -1,10 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import "./App.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Masonry from "react-masonry-css";
 import Image from "./components/Image";
 import Modal from "./components/Modal";
+
+// import SearchBox from "../src/components/SearchBox";
+// import BtnNavbar from "../src/components/BtnNavbar";
+// import BtnNavbarIcon from "../src/components/BtnNavbarIcon";
 
 class App extends React.Component {
   constructor(props) {
@@ -56,17 +60,17 @@ class App extends React.Component {
     });
   }
 
-  searchImg(query) {
-    fetch(
-      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&q=${query}image_type=all&orientation=vertical&per_page=20`
-    )
-      .then(response => response.json())
-      .then(data => {
-        // console.log(query);
-        return this.setState({ images: data.hits });
-      })
-      .catch(error => console.log("parsing failed", error));
-  }
+  // searchImg(query) {
+  //   fetch(
+  //     `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&q=${query}image_type=all&orientation=vertical&per_page=20`
+  //   )
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       // console.log(query);
+  //       return this.setState({ images: data.hits });
+  //     })
+  //     .catch(error => console.log("parsing failed", error));
+  // }
 
   render() {
     const breakpointColumnsObj = {
@@ -78,9 +82,58 @@ class App extends React.Component {
 
     return (
       <React.Fragment>
-        <header>
-          <Navbar />
-        </header>
+        <nav id="navbar" className="header-content">
+          <div className="btn-box">
+            <button id="btn-pinterest" className="logo-pinterest">
+              <img src={require("../src/img/logo.svg")} alt="logo-pinterest" />
+            </button>
+            <div className="search-box-content">
+              <div className="search-box">
+                <button className="btn-search">
+                  <img
+                    src={require("../src/img/search.svg")}
+                    alt="search-button"
+                  />
+                </button>
+                <input type="text" placeholder="Search" />
+              </div>
+              <div className="button-content">
+                <div className="button-box">
+                  <button className="btn-nav-name">Home</button>
+                  <button className="btn-nav-name">Following</button>
+                  <button className="btn-nav-name">
+                    <p className="user-icon">C</p>
+                    <p className="username">Carolina</p>
+                  </button>
+                </div>
+                <div className="border"></div>
+                <button className="btn-nav">
+                  <img
+                    className="icon"
+                    src={require("../src/img/chat.svg")}
+                    alt="chat-button"
+                  />
+                </button>
+
+                <button className="btn-nav">
+                  <img
+                    className="icon"
+                    src={require("../src/img/bell.svg")}
+                    alt="notifications-button"
+                  />
+                </button>
+                <button className="btn-nav">
+                  <img
+                    className="icon"
+                    src={require("../src/img/dots.svg")}
+                    alt="settings-button"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </nav>
         {this.showModal()}
         <div className="images-container">
           <InfiniteScroll
