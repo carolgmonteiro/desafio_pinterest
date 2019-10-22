@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/desafio_pinterest/static/css/main.b0c81873.chunk.css",
+    "main.js": "/desafio_pinterest/static/js/main.53a951b5.chunk.js",
+    "main.js.map": "/desafio_pinterest/static/js/main.53a951b5.chunk.js.map",
+    "runtime-main.js": "/desafio_pinterest/static/js/runtime-main.95011859.js",
+    "runtime-main.js.map": "/desafio_pinterest/static/js/runtime-main.95011859.js.map",
+    "static/css/2.510409cd.chunk.css": "/desafio_pinterest/static/css/2.510409cd.chunk.css",
+    "static/js/2.287fe4e9.chunk.js": "/desafio_pinterest/static/js/2.287fe4e9.chunk.js",
+    "static/js/2.287fe4e9.chunk.js.map": "/desafio_pinterest/static/js/2.287fe4e9.chunk.js.map",
+    "index.html": "/desafio_pinterest/index.html",
+    "precache-manifest.702d16ac39172c86b9238a7dc8d7d6ae.js": "/desafio_pinterest/precache-manifest.702d16ac39172c86b9238a7dc8d7d6ae.js",
+    "service-worker.js": "/desafio_pinterest/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/desafio_pinterest/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.b0c81873.chunk.css.map": "/desafio_pinterest/static/css/main.b0c81873.chunk.css.map",
+    "static/media/arrow-diagonal.PNG": "/desafio_pinterest/static/media/arrow-diagonal.9f541345.PNG",
+    "static/media/back.svg": "/desafio_pinterest/static/media/back.db4c8f7d.svg",
+    "static/media/bell.svg": "/desafio_pinterest/static/media/bell.638b8cdc.svg",
+    "static/media/chat.svg": "/desafio_pinterest/static/media/chat.46debb6e.svg",
+    "static/media/dots-black.PNG": "/desafio_pinterest/static/media/dots-black.b97fda3b.PNG",
+    "static/media/dots.svg": "/desafio_pinterest/static/media/dots.9da64eda.svg",
+    "static/media/logo.svg": "/desafio_pinterest/static/media/logo.66a7bb5f.svg",
+    "static/media/search.svg": "/desafio_pinterest/static/media/search.83832d7a.svg",
+    "static/media/share-black.PNG": "/desafio_pinterest/static/media/share-black.35375e21.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95011859.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.287fe4e9.chunk.js",
+    "static/css/main.b0c81873.chunk.css",
+    "static/js/main.53a951b5.chunk.js"
+  ]
+}
