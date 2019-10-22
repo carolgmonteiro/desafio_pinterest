@@ -61,8 +61,14 @@ class Image extends React.Component {
             <div className="btn-share">
               <img src={require("../img/share.png")} alt="share" />
             </div>
+            {/* <div className="link-image">
+              <button>
+                <img src={require("../img/arrow-diagonal.PNG")} alt="share" />
+                {this.props.url.substr(8, 11) + "..."}
+              </button>
+            </div> */}
             <div className="link-image">
-              <button>{this.props.url.substr(8, 20) + "..."}</button>
+              <button>{this.props.url.substr(8, 11) + "..."}</button>
             </div>
           </div>
         </div>
