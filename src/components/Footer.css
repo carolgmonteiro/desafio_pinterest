@@ -1,0 +1,29 @@
+.footer {
+  bottom: 14px;
+  position: fixed;
+  right: 14px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 660;
+}
+
+.btn-plus,
+.btn-question {
+  background-color: white;
+  outline: none;
+  font-weight: 900;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #333;
+  border: none;
+  width: 45px;
+  height: 45px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgba(0, 0, 0, 0.04);
+}
+
+.btn-plus:hover,
+.btn-question:hover {
+  background: #efefef;
+}

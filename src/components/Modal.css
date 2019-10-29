@@ -165,7 +165,23 @@
   border-radius: 50%;
 }
 
-.link-image-modal button {
+.tags {
+  padding: 5px;
+  color: #333333;
+  font-weight: bold;
+  justify-content: center;
+  right: 60px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  /* position: absolute; */
+  bottom: 48px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.link-image-modal a {
+  padding: 5px;
   border-radius: 20px;
   color: #333333;
   height: 40px;

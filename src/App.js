@@ -1,14 +1,11 @@
 import React from "react";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import "./App.css";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Masonry from "react-masonry-css";
 import Image from "./components/Image";
 import Modal from "./components/Modal";
-
-// import SearchBox from "../src/components/SearchBox";
-// import BtnNavbar from "../src/components/BtnNavbar";
-// import BtnNavbarIcon from "../src/components/BtnNavbarIcon";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -16,8 +13,10 @@ class App extends React.Component {
     this.state = {
       images: [],
       currentPage: 1,
-      query: ""
+      search: ""
     };
+    // this.clickSearch = this.clickSearch.bind(this);
+    // this.searchValue = this.searchValue.bind(this);
     this.fetchData = this.fetchData.bind(this);
     this.showImg = this.showImg.bind(this);
     this.showModal = this.showModal.bind(this);
@@ -25,7 +24,7 @@ class App extends React.Component {
 
   componentDidMount() {
     fetch(
-      "https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&per_page=20"
+      "https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&per_page=20&safesearch=true"
     )
       .then(response => response.json())
       .then(data => {
@@ -38,7 +37,7 @@ class App extends React.Component {
     const { currentPage } = this.state;
     this.setState({ currentPage: this.state.currentPage + 1 });
     fetch(
-      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&page=${currentPage}&per_page=20`
+      `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&image_type=all&orientation=vertical&page=${currentPage}&per_page=20&safesearch=true`
     )
       .then(response => response.json())
       .then(data =>
@@ -49,24 +48,53 @@ class App extends React.Component {
 
   showImg() {
     return this.state.images.map((image, i) => {
-      return <Image dataTarget={image.id} key={i} url={image.webformatURL} />;
+      return (
+        <Image
+          dataTarget={image.id}
+          key={i}
+          url={image.webformatURL}
+          pageurl={image.pageURL}
+        />
+      );
     });
   }
 
   showModal() {
     return this.state.images.map((image, i) => {
       // console.log(image);
-      return <Modal id={image.id} key={i} url={image.webformatURL} />;
+      return (
+        <Modal
+          id={image.id}
+          key={i}
+          url={image.webformatURL}
+          pageurl={image.pageURL}
+          tags={image.tags}
+        />
+      );
     });
   }
 
-  // searchImg(query) {
+  // //guardar el valor del form
+  // searchValue=(e)=> {
+  //   this.setState({ search: e.target.value });
+  //   console.log({ search: e.target.value });
+  // }
+
+  // //para buscar
+  // clickSearch= (e) => {
+  //   // e.preventDefault();
+  //   if (e.key === "Enter") {
+  //     this.searchImg(this.state.search);
+  //     console.log("enter key pressed", this.state.search);
+  //   }
+  // }
+
+  // searchImg(search) {
   //   fetch(
-  //     `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&q=${query}image_type=all&orientation=vertical&per_page=20`
+  //     `https://pixabay.com/api/?key=13902902-ce7912fe8b458917f397c8a5d&q=${search}image_type=all&orientation=vertical&per_page=20`
   //   )
   //     .then(response => response.json())
   //     .then(data => {
-  //       // console.log(query);
   //       return this.setState({ images: data.hits });
   //     })
   //     .catch(error => console.log("parsing failed", error));
@@ -83,55 +111,10 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <nav id="navbar" className="header-content">
-          <div className="btn-box">
-            <button id="btn-pinterest" className="logo-pinterest">
-              <img src={require("../src/img/logo.svg")} alt="logo-pinterest" />
-            </button>
-            <div className="search-box-content">
-              <div className="search-box">
-                <button className="btn-search">
-                  <img
-                    src={require("../src/img/search.svg")}
-                    alt="search-button"
-                  />
-                </button>
-                <input type="text" placeholder="Search" />
-              </div>
-              <div className="button-content">
-                <div className="button-box">
-                  <button className="btn-nav-name">Home</button>
-                  <button className="btn-nav-name">Following</button>
-                  <button className="btn-nav-name">
-                    <p className="user-icon">C</p>
-                    <p className="username">Carolina</p>
-                  </button>
-                </div>
-                <div className="border"></div>
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/chat.svg")}
-                    alt="chat-button"
-                  />
-                </button>
-
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/bell.svg")}
-                    alt="notifications-button"
-                  />
-                </button>
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/dots.svg")}
-                    alt="settings-button"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
+          <Navbar
+          // searchValue={this.searchValue}
+          // clickSearch={this.clickSearch}
+          />
           <hr />
         </nav>
         {this.showModal()}
@@ -156,6 +139,7 @@ class App extends React.Component {
             </Masonry>
           </InfiniteScroll>
         </div>
+        <Footer />
       </React.Fragment>
     );
   }

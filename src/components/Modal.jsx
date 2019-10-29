@@ -30,7 +30,7 @@ class Modal extends React.Component {
         <div
           className="modal fade"
           id={"modal" + this.props.id}
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
@@ -56,14 +56,17 @@ class Modal extends React.Component {
                     </select>
                     <button>Save</button>
                   </div>
+                  <div className="tags">
+                    <p>Tags: {this.props.tags}</p>
+                  </div>
                   <div className="link-image-modal">
-                    <button>
+                    <a href={this.props.pageurl} target={"_blank"}>
                       <img
                         src={require("../img/arrow-diagonal.PNG")}
                         alt="share"
                       />
-                      {this.props.url.substr(8, 20) + "..."}
-                    </button>
+                      {this.props.pageurl.substr(8, 20) + "..."}
+                    </a>
                   </div>
                 </div>
               </div>

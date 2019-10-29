@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Navbar component 1`] = `
+<div
+  className="btn-box"
+>
+  <button
+    className="logo-pinterest"
+    id="btn-pinterest"
+  >
+    <img
+      alt="logo-pinterest"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "logo.svg",
+        }
+      }
+    />
+  </button>
+  <div
+    className="search-box-content"
+  >
+    <div
+      className="search-box"
+    >
+      <button
+        className="btn-search"
+      >
+        <img
+          alt="search-button"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "search.svg",
+            }
+          }
+        />
+      </button>
+      <input
+        placeholder="Search"
+        type="text"
+      />
+    </div>
+    <div
+      className="button-content"
+    >
+      <div
+        className="button-box"
+      >
+        <button
+          className="btn-nav-name"
+        >
+          Home
+        </button>
+        <button
+          className="btn-nav-name"
+        >
+          Following
+        </button>
+        <button
+          className="btn-nav-name"
+        >
+          <p
+            className="user-icon"
+          >
+            C
+          </p>
+          <p
+            className="username"
+          >
+            Carolina
+          </p>
+        </button>
+      </div>
+      <div
+        className="border"
+      />
+      <button
+        className="btn-nav"
+      >
+        <img
+          alt="chat-button"
+          className="icon"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "chat.svg",
+            }
+          }
+        />
+      </button>
+      <button
+        className="btn-nav"
+      >
+        <img
+          alt="notifications-button"
+          className="icon"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "bell.svg",
+            }
+          }
+        />
+      </button>
+      <button
+        className="btn-nav"
+      >
+        <img
+          alt="settings-button"
+          className="icon"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "dots.svg",
+            }
+          }
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="header-content"
+    id="navbar"
+  >
+    <div
+      className="btn-box"
+    >
+      <button
+        className="logo-pinterest"
+        id="btn-pinterest"
+      >
+        <img
+          alt="logo-pinterest"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "logo.svg",
+            }
+          }
+        />
+      </button>
+      <div
+        className="search-box-content"
+      >
+        <div
+          className="search-box"
+        >
+          <button
+            className="btn-search"
+          >
+            <img
+              alt="search-button"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "search.svg",
+                }
+              }
+            />
+          </button>
+          <input
+            placeholder="Search"
+            type="text"
+          />
+        </div>
+        <div
+          className="button-content"
+        >
+          <div
+            className="button-box"
+          >
+            <button
+              className="btn-nav-name"
+            >
+              Home
+            </button>
+            <button
+              className="btn-nav-name"
+            >
+              Following
+            </button>
+            <button
+              className="btn-nav-name"
+            >
+              <p
+                className="user-icon"
+              >
+                C
+              </p>
+              <p
+                className="username"
+              >
+                Carolina
+              </p>
+            </button>
+          </div>
+          <div
+            className="border"
+          />
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="chat-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "chat.svg",
+                }
+              }
+            />
+          </button>
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="notifications-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "bell.svg",
+                }
+              }
+            />
+          </button>
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="settings-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "dots.svg",
+                }
+              }
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </nav>,
+  <div
+    className="images-container"
+  >
+    <div
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component "
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="my-masonry-grid"
+        />
+        <h4>
+          Loading...
+        </h4>
+      </div>
+    </div>
+  </div>,
+]
+`;
