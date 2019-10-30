@@ -63,7 +63,7 @@ class Image extends React.Component {
             </div>
             <div className="link-image">
               <a href={this.props.pageurl} target={"_blank"}>
-                {this.props.pageurl.substr(27, 10) + "..."}
+                {this.props.pageurl.substr(27, 10)}...
               </a>
             </div>
           </div>

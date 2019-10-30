@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import axios from "axios";
-import Image from "./Image";
+import Image from "../Image";
 import SearchBox from "./SearchBox";
 // import BtnNavbar from "./BtnNavbar";
 // import BtnNavbarIcon from "./BtnNavbarIcon";

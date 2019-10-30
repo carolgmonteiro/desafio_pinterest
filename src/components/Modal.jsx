@@ -65,7 +65,7 @@ class Modal extends React.Component {
                         src={require("../img/arrow-diagonal.PNG")}
                         alt="share"
                       />
-                      {this.props.pageurl.substr(8, 20) + "..."}
+                      {this.props.pageurl.substr(27, 10)}...
                     </a>
                   </div>
                 </div>
