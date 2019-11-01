@@ -1,6 +1,6 @@
-<a href="https://ibb.co/4M02Cmh"><img src="https://i.ibb.co/gwcdQjk/logo-pinterest.png" alt="logo-pinterest" border="0" style="height:100px; width:100px;"></a>## Desafío #6: Réplica de Pinterest con React js
+## Desafío: Réplica de Pinterest con React js
 
-Link para la [aplicación "Pinterest"](https://carolgmonteiro.github.io/desafio_pinterest/) en la versión desktop.
+Link para la [replica de "Pinterest"](https://carolgmonteiro.github.io/desafio_pinterest/) en la versión desktop.
 
 Dado un conjunto de urls de imagen usé la API Pixabay para recrear el diseño de página "Home" de pinterest que incluye:
 
