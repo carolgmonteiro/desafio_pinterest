@@ -31,6 +31,62 @@ h6 {
   padding-left: 5%;
   padding-right: 2%;
 }
+@media (min-width: 360px) and (max-width: 768px) {
+  /* NavBar */
+  #navbar {
+    display: inline-block;
+    width: 100%;
+    min-height: 65px;
+
+    background: white;
+    flex-wrap: wrap;
+    z-index: 9999;
+  }
+  .nav-box {
+    /* display: inline-flex; */
+    background: white;
+    max-height: 250px;
+    padding-right: 4%;
+  }
+  .search-box-content {
+    flex-basis: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .images-container {
+    justify-content: center;
+    margin-top: 25vh;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+  .logo-pinterest {
+    margin-top: 3px;
+    margin-left: 15px;
+    border: none;
+    background: transparent;
+  }
+  .search-box input {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 75%;
+    width: 100%;
+    background: #efefef;
+    border: 0;
+    font-weight: 600;
+    padding: 0;
+    cursor: text;
+    min-width: 150px;
+  }
+  .icon {
+    justify-content: center;
+    /* padding: 2%; */
+    padding: 10px;
+    height: 30px;
+    margin-right: 2px;
+    width: 30px;
+    display: flex;
+  }
+}
 
 /* Optional, different gutter size on mobile */
 @media (max-width: 800px) {
@@ -61,11 +117,9 @@ h6 {
   position: fixed;
   box-sizing: border-box;
 }
-.btn-box {
-  display: flex;
+.nav-box {
+  /* display: inline-flex; */
   background: white;
-
-  /* justify-content: space-around; */
 }
 
 #btn-pinterest img {
@@ -164,6 +218,7 @@ hr {
   font-weight: 600;
   padding: 0;
   cursor: text;
+  min-width: 200px;
 }
 
 /* Bton NavBar */
@@ -288,13 +343,7 @@ hr {
 }
 
 .search-box img {
-  /* justify-content: center;
-  padding: 2%;*/
   padding: 8px;
-  /* height: 28px;
-  width: 28px;
-  flex-basis: 6%; */
-  /* margin-right: 15px; */
   margin-bottom: 15px;
   justify-content: center;
   margin-bottom: 15px;
@@ -314,14 +363,3 @@ hr {
   padding: 0;
   cursor: text;
 }
-
-/* .search-box img {
-  justify-content: center;
-  padding: 2%;
-  padding: 10px;
-  height: 38px;
-
-  width: 38px;
-  display: flex;
-  position: relative;
-} */

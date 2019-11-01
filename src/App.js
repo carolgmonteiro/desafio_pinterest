@@ -102,11 +102,14 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <nav id="navbar" className="header-content">
-          <div className="btn-box">
-            <button id="btn-pinterest" className="logo-pinterest">
-              <img src={require("../src/img/logo.svg")} alt="logo-pinterest" />
-            </button>
+          <div className="nav-box">
             <div className="search-box-content">
+              <button id="btn-pinterest" className="logo-pinterest">
+                <img
+                  src={require("../src/img/logo.svg")}
+                  alt="logo-pinterest"
+                />
+              </button>
               <form className="search-box">
                 <button className="btn-search">
                   <img
@@ -122,41 +125,42 @@ class App extends React.Component {
                   onChange={this.onTextChange}
                 />
               </form>
-              <div className="button-content">
-                <div className="button-box">
-                  <button className="btn-nav-name">Home</button>
-                  <button className="btn-nav-name">Following</button>
-                  <button className="btn-nav-name">
-                    <p className="user-icon">C</p>
-                    <p className="username">Carolina</p>
-                  </button>
-                </div>
-                <div className="border"></div>
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/chat.svg")}
-                    alt="chat-button"
-                  />
-                </button>
-
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/bell.svg")}
-                    alt="notifications-button"
-                  />
-                </button>
-                <button className="btn-nav">
-                  <img
-                    className="icon"
-                    src={require("../src/img/dots.svg")}
-                    alt="settings-button"
-                  />
+            </div>
+            <div className="button-content">
+              <div className="button-box">
+                <button className="btn-nav-name">Home</button>
+                <button className="btn-nav-name">Following</button>
+                <button className="btn-nav-name">
+                  <p className="user-icon">C</p>
+                  <p className="username">Carolina</p>
                 </button>
               </div>
+              <div className="border"></div>
+              <button className="btn-nav">
+                <img
+                  className="icon"
+                  src={require("../src/img/chat.svg")}
+                  alt="chat-button"
+                />
+              </button>
+
+              <button className="btn-nav">
+                <img
+                  className="icon"
+                  src={require("../src/img/bell.svg")}
+                  alt="notifications-button"
+                />
+              </button>
+              <button className="btn-nav">
+                <img
+                  className="icon"
+                  src={require("../src/img/dots.svg")}
+                  alt="settings-button"
+                />
+              </button>
             </div>
           </div>
+
           <hr />
         </nav>
         {this.showModal()}
