@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly with no props 1`] = `
+<Fragment>
+  <nav
+    className="header-content"
+    id="navbar"
+  >
+    <div
+      className="btn-box"
+    >
+      <button
+        className="logo-pinterest"
+        id="btn-pinterest"
+      >
+        <img
+          alt="logo-pinterest"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "logo.svg",
+            }
+          }
+        />
+      </button>
+      <div
+        className="search-box-content"
+      >
+        <form
+          className="search-box"
+        >
+          <button
+            className="btn-search"
+          >
+            <img
+              alt="search-button"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "search.svg",
+                }
+              }
+            />
+          </button>
+          <input
+            name="searchText"
+            onChange={[Function]}
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </form>
+        <div
+          className="button-content"
+        >
+          <div
+            className="button-box"
+          >
+            <button
+              className="btn-nav-name"
+            >
+              Home
+            </button>
+            <button
+              className="btn-nav-name"
+            >
+              Following
+            </button>
+            <button
+              className="btn-nav-name"
+            >
+              <p
+                className="user-icon"
+              >
+                C
+              </p>
+              <p
+                className="username"
+              >
+                Carolina
+              </p>
+            </button>
+          </div>
+          <div
+            className="border"
+          />
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="chat-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "chat.svg",
+                }
+              }
+            />
+          </button>
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="notifications-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "bell.svg",
+                }
+              }
+            />
+          </button>
+          <button
+            className="btn-nav"
+          >
+            <img
+              alt="settings-button"
+              className="icon"
+              src={
+                Object {
+                  "ReactComponent": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                  "__esModule": true,
+                  "default": "dots.svg",
+                }
+              }
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </nav>
+  <div
+    className="images-container"
+  >
+    <InfiniteScroll
+      dataLength={0}
+      disableBrowserPullToRefresh={true}
+      endMessage={
+        <p
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          <b>
+            Yay! You have seen it all
+          </b>
+        </p>
+      }
+      hasMore={true}
+      loader={
+        <h4>
+          Loading...
+        </h4>
+      }
+      next={[Function]}
+      pullDownToRefreshContent={
+        <h3>
+          Pull down to refresh
+        </h3>
+      }
+      pullDownToRefreshThreshold={100}
+      releaseToRefreshContent={
+        <h3>
+          Release to refresh
+        </h3>
+      }
+    >
+      <div />
+      <Masonry
+        breakpointCols={
+          Object {
+            "1100": 4,
+            "500": 1,
+            "700": 2,
+            "default": 5,
+          }
+        }
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      />
+    </InfiniteScroll>
+  </div>
+  <Footer />
+</Fragment>
+`;
+
+exports[`should render correctly with no props 2`] = `
+<section
+  className="footer"
+>
+  <div>
+    <button
+      className="btn-plus"
+    >
+      <i>
+        +
+      </i>
+    </button>
+  </div>
+  <div>
+    <button
+      className="btn-question"
+    >
+      <i>
+        ?
+      </i>
+    </button>
+  </div>
+</section>
+`;
+
+exports[`should render correctly with no props 3`] = `
+<Fragment>
+  <div
+    className="image-container"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <img
+      alt="link"
+      className="linked-img"
+      data-target="#modalundefined"
+      data-toggle="modal"
+    />
+    <div
+      className="btn-save-collection"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <select
+        name="collections"
+      >
+        <option>
+          illustration
+        </option>
+        <option>
+          watercolor
+        </option>
+        <option>
+          photos
+        </option>
+        <option>
+          inspiration
+        </option>
+      </select>
+      <button>
+        Save
+      </button>
+    </div>
+    <div
+      className="btn-dots"
+    >
+      <button>
+        <img
+          alt="dots"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "dots.svg",
+            }
+          }
+        />
+      </button>
+    </div>
+    <div
+      className="link-content"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <div
+        className="btn-share"
+      >
+        <img
+          alt="share"
+          src="share.png"
+        />
+      </div>
+      <div
+        className="link-image"
+      >
+        <a
+          target="_blank"
+        >
+          ...
+        </a>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`should render correctly with no props 4`] = `
+<form
+  className="search-box"
+>
+  <button
+    className="btn-search"
+    onClick={[Function]}
+  >
+    <img
+      alt="search-button"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "search.svg",
+        }
+      }
+    />
+  </button>
+  <input
+    name="searchText"
+    onChange={[Function]}
+    placeholder="Search"
+    type="search"
+    value=""
+  />
+</form>
+`;
+
+exports[`should render correctly with no props 5`] = `
+<Fragment>
+  <div
+    className="image-container"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <img
+      alt="link"
+      className="linked-img"
+      data-target="#modalundefined"
+      data-toggle="modal"
+    />
+    <div
+      className="btn-save-collection"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <select
+        name="collections"
+      >
+        <option>
+          illustration
+        </option>
+        <option>
+          watercolor
+        </option>
+        <option>
+          photos
+        </option>
+        <option>
+          inspiration
+        </option>
+      </select>
+      <button>
+        Save
+      </button>
+    </div>
+    <div
+      className="btn-dots"
+    >
+      <button>
+        <img
+          alt="dots"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "dots.svg",
+            }
+          }
+        />
+      </button>
+    </div>
+    <div
+      className="link-content"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <div
+        className="btn-share"
+      >
+        <img
+          alt="share"
+          src="share.png"
+        />
+      </div>
+      <div
+        className="link-image"
+      >
+        <a
+          target="_blank"
+        >
+          undefined...
+        </a>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`should render some part of the pageurl 1`] = `
+<Fragment>
+  <div
+    aria-hidden="true"
+    aria-labelledby="exampleModalLabel"
+    className="modal fade"
+    id="modalundefined"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog modal-lg"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          aria-label="Close"
+          className="arrow"
+          data-dismiss="modal"
+        >
+          <img
+            alt="btn-back"
+            src={
+              Object {
+                "ReactComponent": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+                "__esModule": true,
+                "default": "back.svg",
+              }
+            }
+          />
+        </div>
+        <div
+          className="modal-body"
+        >
+          <img
+            alt="linked"
+            className="img-fluid"
+          />
+          <div
+            className="modal-infos"
+          >
+            <div
+              className="btn-icons-modal"
+            >
+              <img
+                alt="share"
+                src="share-black.PNG"
+              />
+              <img
+                alt="dots"
+                src="dots-black.PNG"
+              />
+            </div>
+            <div
+              className="btn-save-collection-modal"
+            >
+              <select
+                name="collections"
+              >
+                <option>
+                  illustration
+                </option>
+                <option>
+                  watercolor
+                </option>
+                <option>
+                  photos
+                </option>
+                <option>
+                  inspiration
+                </option>
+              </select>
+              <button>
+                Save
+              </button>
+            </div>
+            <div
+              className="tags"
+            >
+              <p>
+                Tags: 
+              </p>
+            </div>
+            <div
+              className="link-image-modal"
+            >
+              <a
+                target="_blank"
+              >
+                <img
+                  alt="share"
+                  src="arrow-diagonal.PNG"
+                />
+                ...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
