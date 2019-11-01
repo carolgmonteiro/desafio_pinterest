@@ -1,8 +1,15 @@
-## Desafío #6: Réplica de Pinterest con React js
+<a href="https://ibb.co/4M02Cmh"><img src="https://i.ibb.co/gwcdQjk/logo-pinterest.png" alt="logo-pinterest" border="0" style="height:100px; width:100px;"></a>## Desafío #6: Réplica de Pinterest con React js
 
-Link para la [aplicación "Pinterest"](https://carolgmonteiro.github.io/desafio_pinterest/)
+Link para la [aplicación "Pinterest"](https://carolgmonteiro.github.io/desafio_pinterest/) en la versión desktop.
 
-Dado un conjunto de urls de imagen (elige un banco de imágenes que más te guste, por ejemplo: Unsplash), recrea el diseño de página de pinterest:
+Dado un conjunto de urls de imagen usé la API Pixabay para recrear el diseño de página "Home" de pinterest que incluye:
+
+- busqueda de imagenes;
+  <a href="https://ibb.co/NTh4mSK"><img src="https://i.ibb.co/nP2WnCj/Pantalla01.png" alt="Pantalla01" border="0"></a>
+- desplegue del modal con informaciones de la imagene;
+  <a href="https://ibb.co/KbYDRFz"><img src="https://i.ibb.co/8NJbT64/Pantalla02.png" alt="Pantalla02" border="0"></a>
+- accede a la imagene por los links en el modal o hover;
+  <a href="https://ibb.co/DzQVCww"><img src="https://i.ibb.co/LY1kt99/Pantalla03.png" alt="Pantalla03" border="0"></a>
 
 ###Requisitos:
 
