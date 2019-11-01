@@ -43,7 +43,7 @@ h6 {
     z-index: 9999;
   }
   .nav-box {
-    /* display: inline-flex; */
+    display: inline-flex;
     background: white;
     max-height: 250px;
     padding-right: 4%;
@@ -55,7 +55,7 @@ h6 {
   }
   .images-container {
     justify-content: center;
-    margin-top: 25vh;
+    margin-top: 18vh;
     padding-left: 5%;
     padding-right: 2%;
   }
@@ -118,7 +118,7 @@ h6 {
   box-sizing: border-box;
 }
 .nav-box {
-  /* display: inline-flex; */
+  display: flex;
   background: white;
 }
 
