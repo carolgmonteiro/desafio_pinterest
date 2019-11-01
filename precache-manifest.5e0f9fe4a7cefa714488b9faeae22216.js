@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be505a4fa7544f9e399a211c440473cd",
+    "revision": "39a1f47ae27bc3fce89f795ad5d5d1b6",
     "url": "/desafio_pinterest/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio_pinterest/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "5551a9c51b81049a1bc5",
-    "url": "/desafio_pinterest/static/css/main.38f442f5.chunk.css"
+    "revision": "0ac2481d97c627f587c2",
+    "url": "/desafio_pinterest/static/css/main.39a579ce.chunk.css"
   },
   {
     "revision": "c33772d295b00f6767fa",
     "url": "/desafio_pinterest/static/js/2.df342293.chunk.js"
   },
   {
-    "revision": "5551a9c51b81049a1bc5",
-    "url": "/desafio_pinterest/static/js/main.d538935c.chunk.js"
+    "revision": "0ac2481d97c627f587c2",
+    "url": "/desafio_pinterest/static/js/main.be8657e0.chunk.js"
   },
   {
     "revision": "eb2796d29b7ca49a6123",
