@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64d0329045e37fdada21bb7daa398a78",
+    "revision": "be505a4fa7544f9e399a211c440473cd",
     "url": "/desafio_pinterest/index.html"
   },
   {
-    "revision": "d829b3b6af3612c12dff",
+    "revision": "c33772d295b00f6767fa",
     "url": "/desafio_pinterest/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "8d027c39f8f8b2062b20",
-    "url": "/desafio_pinterest/static/css/main.b0c81873.chunk.css"
+    "revision": "5551a9c51b81049a1bc5",
+    "url": "/desafio_pinterest/static/css/main.38f442f5.chunk.css"
   },
   {
-    "revision": "d829b3b6af3612c12dff",
-    "url": "/desafio_pinterest/static/js/2.287fe4e9.chunk.js"
+    "revision": "c33772d295b00f6767fa",
+    "url": "/desafio_pinterest/static/js/2.df342293.chunk.js"
   },
   {
-    "revision": "8d027c39f8f8b2062b20",
-    "url": "/desafio_pinterest/static/js/main.53a951b5.chunk.js"
+    "revision": "5551a9c51b81049a1bc5",
+    "url": "/desafio_pinterest/static/js/main.d538935c.chunk.js"
   },
   {
     "revision": "eb2796d29b7ca49a6123",
