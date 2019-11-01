@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import App from "../App";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import Image from "../components/Image";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
-import SearchBox from "../components/SearchBox";
-import { BrowserRouter } from "react-router-dom";
+// import SearchBox from "../components/SearchBox";
+// import { BrowserRouter } from "react-router-dom";
 import { mount, shallow, render } from "enzyme";
 import { configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
@@ -17,13 +17,26 @@ it("should render correctly with no props", () => {
   expect(component).toMatchSnapshot();
 });
 
-it("should render correctly with no props", () => {
-  const component = shallow(<Navbar />);
-  expect(component).toMatchSnapshot();
-});
+// it("should render correctly with no props", () => {
+//   const component = shallow(<Navbar />);
+//   expect(component).toMatchSnapshot();
+// });
 
 it("should render correctly with no props", () => {
   const component = shallow(<Footer />);
+  expect(component).toMatchSnapshot();
+});
+
+// describe("Modal.jsx", () => {
+//   it("Should render Modal without errors", () => {
+//     render(<Modal onChange={() => {}} defaultValue="default value" />);
+//   });
+// });
+
+it("should render some part of the pageurl", () => {
+  let pageurl =
+    "href= https://pixabay.com/photos/sunflower-flower-blossom-bloom-4584290/";
+  const component = shallow(<Modal a href={pageurl.substr(27, 10)} />);
   expect(component).toMatchSnapshot();
 });
 
@@ -37,10 +50,10 @@ it("should render correctly with no props", () => {
   expect(component).toMatchSnapshot();
 });
 
-it("should render correctly with no props", () => {
-  const component = shallow(<SearchBox />);
-  expect(component).toMatchSnapshot();
-});
+// it("should render correctly with no props", () => {
+//   const component = shallow(<SearchBox />);
+//   expect(component).toMatchSnapshot();
+// });
 
 // it("renders correctly", () => {
 //   const tree = renderer.create(<App />).toJSON();

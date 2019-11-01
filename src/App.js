@@ -17,7 +17,6 @@ class App extends React.Component {
       images: [],
       currentPage: 1
     };
-    // this.clickSearch = this.clickSearch.bind(this);
     this.onTextChange = this.onTextChange.bind(this);
     this.fetchData = this.fetchData.bind(this);
     this.showImg = this.showImg.bind(this);
@@ -26,6 +25,7 @@ class App extends React.Component {
 
   onTextChange = e => {
     const valueSearch = e.target.value;
+    console.log(valueSearch);
     this.setState({ [e.target.name]: valueSearch }, () => {
       if (valueSearch === " ") {
         this.setState({ images: [] });

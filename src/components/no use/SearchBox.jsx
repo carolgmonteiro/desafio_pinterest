@@ -1,31 +1,31 @@
 import React from "react";
 import "./SearchBox.css";
-import axios from "axios";
-import ImageResults from "./ImageResults";
+// import axios from "axios";
+// import ImageResults from "./ImageResults";
 
 class SearchBox extends React.Component {
-  state = {
-    searchText: "",
-    amount: 20,
-    apiUrl: "https://pixabay.com/api",
-    apiKey: "13902902-ce7912fe8b458917f397c8a5d",
-    images: []
-  };
-  onTextChange = e => {
-    const valueSearch = e.target.value;
-    this.setState({ [e.target.name]: valueSearch }, () => {
-      if (valueSearch === " ") {
-        this.setState({ images: [] });
-      } else {
-        axios
-          .get(
-            `${this.state.apiUrl}/?key=${this.state.apiKey}&q=${this.state.searchText}&image_type=all&orientation=vertical&per_page=${this.state.amount}&safesearch=true`
-          )
-          .then(res => this.setState({ images: res.data.hits }))
-          .catch(err => console.log(err));
-      }
-    });
-  };
+  // state = {
+  //   searchText: "",
+  //   amount: 20,
+  //   apiUrl: "https://pixabay.com/api",
+  //   apiKey: "13902902-ce7912fe8b458917f397c8a5d",
+  //   images: []
+  // };
+  // onTextChange = e => {
+  //   const valueSearch = e.target.value;
+  //   this.setState({ [e.target.name]: valueSearch }, () => {
+  //     if (valueSearch === " ") {
+  //       this.setState({ images: [] });
+  //     } else {
+  //       axios
+  //         .get(
+  //           `${this.state.apiUrl}/?key=${this.state.apiKey}&q=${this.state.searchText}&image_type=all&orientation=vertical&per_page=${this.state.amount}&safesearch=true`
+  //         )
+  //         .then(res => this.setState({ images: res.data.hits }))
+  //         .catch(err => console.log(err));
+  //     }
+  //   });
+  // };
 
   render() {
     console.log(this.state.images);
